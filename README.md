@@ -9,13 +9,14 @@ Running on windows over apache 2.4.9 + php 5.5.12 + mysql 5.6.17 (wamp server pa
 #### Download
 
 ```
-$ composer create-project ronaldo-systemar/crud-ember-1.13-slim-json-api --prefer-dist
+$ git clone https://github.com/ronaldo-systemar/crud-ember-1.13-slim-json-api.git
 ```
 
 Inside api-simple-crud you got database.sql, run it. (default database is mysql, changes in .env)
 
 ```
-$ cd api-simple-crud/
+$ cd crud-ember-1.13-slim-json-api.git
+$ cd api-simple-crud
 $ composer install
 $ cd public
 $ php -S localhost:1337
