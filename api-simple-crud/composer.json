@@ -1,0 +1,21 @@
+{
+    "require": {
+        "slim/slim": "^2.6",
+        "tuupola/slim-jwt-auth": "^0.3.0",
+        "vlucas/phpdotenv": "^2.0",
+		"illuminate/database": "*",
+        "neomerx/json-api": "~0.5.0",
+        "jenssegers/mongodb": "^2.1",
+        "illuminate/events": "^5.1",
+        "firebase/php-jwt": "^2.2"
+    },
+    "autoload": {
+        "classmap": [
+            "app/models/User.php",
+            "app/schemas/UserSchema.php"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
