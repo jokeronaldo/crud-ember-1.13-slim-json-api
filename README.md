@@ -6,10 +6,10 @@ Tested on windows over apache 2.4.9 + php 5.5.12 + mysql 5.6.17 (wamp server pac
 
 #### In this package
 
-Ember 1.13 application (CRUD)
-Slim Framework api (CRUD)
-Eloquent ORM
-JSON-API (Neomerx PHP implementation)
+* Ember 1.13 application (CRUD)
+* Slim Framework api (CRUD)
+* Eloquent ORM
+* JSON-API (Neomerx PHP implementation)
 
 ### Installation
 
