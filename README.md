@@ -15,7 +15,7 @@ $ git clone https://github.com/ronaldo-systemar/crud-ember-1.13-slim-json-api.gi
 Inside api-simple-crud you got database.sql, run it. (default database is mysql, changes in .env)
 
 ```
-$ cd crud-ember-1.13-slim-json-api.git
+$ cd crud-ember-1.13-slim-json-api
 $ cd api-simple-crud
 $ composer install
 $ cd public
